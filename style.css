@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  max-width: 100%;
+}
+body {
+ background: #f4f4f4;
+}
+main {
+  padding: 50px;
+}
+.container {
+  background: #fff;
+  margin: 0, auto;
+  padding: 50px;
+  width: 100%;
+  border-radius: 10px;
+}
+.subtitle {
+  color:  #78858F;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4070f4;
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: 700;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+
+footer {
+  padding-left: 20px;
+}
